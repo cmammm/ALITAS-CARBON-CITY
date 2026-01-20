@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de pedidos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sistema de pedidos</h1>
+
+<nav id="zonas">
+  <button onclick="cambiarZona('alitas')">🍗 Alitas</button>
+  <button onclick="cambiarZona('comida')">🍔 Comida</button>
+  <button onclick="cambiarZona('pizza')">🍕 Pizza</button>
+  <button onclick="cambiarZona('botana')">🍟 Botana</button>
+  <button onclick="cambiarZona('taqueria')">🌮 Taquería</button>
+  <button onclick="cambiarZona('postres')">🍰 Postres</button>
+</nav>
+
+<main>
+  <section id="menu"></section>
+
+  <aside id="pedido">
+    <h2>🧾 Pedido actual</h2>
+    <div id="lista-pedido"></div>
+    <h3 id="total">Total: $0</h3>
+  </aside>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

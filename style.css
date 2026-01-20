@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  background: #e63946;
+}
+
+#zonas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+#zonas button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  font-size: 16px;
+}
+
+#zonas button:hover {
+  background: #e63946;
+}
+
+main {
+  display: flex;
+}
+
+#menu {
+  width: 65%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 15px;
+}
+
+.producto {
+  background: #222;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 5px black;
+}
+
+.producto h3 {
+  margin: 0;
+}
+
+.controles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.controles button {
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+#pedido {
+  width: 35%;
+  background: #1a1a1a;
+  padding: 20px;
+  border-left: 2px solid #333;
+}
+
+.item-pedido {
+  border-bottom: 1px solid #333;
+  padding: 8px 0;
+}

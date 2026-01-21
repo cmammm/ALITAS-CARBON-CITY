@@ -23,11 +23,39 @@
 
   <aside id="pedido">
     <h2>🧾 Pedido actual</h2>
+
+    <input id="telefono" placeholder="Terminación del número">
+
     <div id="lista-pedido"></div>
+
     <h3 id="total">Total: $0</h3>
+
+    <button onclick="finalizarPedido()">✅ Finalizar pedido</button>
   </aside>
 </main>
 
+<!-- SUPABASE -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- TU JS -->
 <script src="script.js"></script>
+
+<!-- TICKET -->
+<div id="ticket" class="ticket">
+  <div class="ticket-center">
+    <div id="t-pedido">PEDIDO #--</div>
+    <div id="t-hora">--:--</div>
+    <div id="t-tel">Tel: **** ----</div>
+  </div>
+
+  <div class="ticket-line">-------------------</div>
+
+  <div id="t-productos" class="ticket-productos"></div>
+
+  <div class="ticket-line">-------------------</div>
+
+  <div id="t-total" class="ticket-total">TOTAL: $0</div>
+</div>
+
 </body>
 </html>

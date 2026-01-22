@@ -79,17 +79,43 @@ const productos = {
   ],
 
   taqueria: [
-    { id: "t1", nombre: "Taco pollo", precio: 28 },
-    { id: "t2", nombre: "Taco bistec", precio: 28 },
-    { id: "t3", nombre: "Taco longaniza", precio: 28 },
-    { id: "t4", nombre: "Taco cecina", precio: 28 },
-    { id: "t5", nombre: "Taco chorizo", precio: 28 },
-    { id: "t6", nombre: "Taco campechano", precio: 28 },
-    { id: "t7", nombre: "Taco chorizo arg", precio: 30 },
-    { id: "t8", nombre: "Taco alambre", precio: 35 },
-    { id: "t9", nombre: "Taco costilla", precio: 55 },
-    { id: "t10", nombre: "Taco arrachera", precio: 55 }
+  // 🌮 TACOS
+    { id: "t1", nombre: "Taco pollo", precio: 28, max: 15 },
+    { id: "t2", nombre: "Taco bistec", precio: 28, max: 15 },
+    { id: "t3", nombre: "Taco longaniza", precio: 28, max: 15 },
+    { id: "t4", nombre: "Taco cecina", precio: 28, max: 15 },
+    { id: "t5", nombre: "Taco chorizo", precio: 28, max: 15 },
+    { id: "t6", nombre: "Taco campechano", precio: 28, max: 15 },
+    { id: "t7", nombre: "Taco chorizo arg", precio: 30, max: 15 },
+    { id: "t8", nombre: "Taco alambre", precio: 35, max: 15 },
+    { id: "t9", nombre: "Taco costilla", precio: 55, max: 15 },
+    { id: "t10", nombre: "Taco arrachera", precio: 55, max: 15 },
+
+  // 🧀 GRINGAS
+    { id: "g1", nombre: "Gringa pollo", precio: 60, max: 10 },
+    { id: "g2", nombre: "Gringa bistec", precio: 60, max: 10 },
+    { id: "g3", nombre: "Gringa longaniza", precio: 60, max: 10 },
+    { id: "g4", nombre: "Gringa cecina", precio: 60, max: 10 },
+    { id: "g5", nombre: "Gringa chorizo", precio: 60, max: 10 },
+    { id: "g6", nombre: "Gringa campechana", precio: 60, max: 10 },
+    { id: "g7", nombre: "Gringa chorizo arg", precio: 60, max: 10 },
+    { id: "g8", nombre: "Gringa alambre", precio: 60, max: 10 },
+    { id: "g9", nombre: "Gringa costilla", precio: 80, max: 10 },
+    { id: "g10", nombre: "Gringa arrachera", precio: 80, max: 10 },
+
+  // 🌯 BURRITOS
+    { id: "r1", nombre: "Burrito pollo", precio: 90, max: 5 },
+    { id: "r2", nombre: "Burrito bistec", precio: 90, max: 5 },
+    { id: "r3", nombre: "Burrito longaniza", precio: 90, max: 5 },
+    { id: "r4", nombre: "Burrito cecina", precio: 90, max: 5 },
+    { id: "r5", nombre: "Burrito chorizo", precio: 90, max: 5 },
+    { id: "r6", nombre: "Burrito campechano", precio: 90, max: 5 },
+    { id: "r7", nombre: "Burrito chorizo arg", precio: 90, max: 5 },
+    { id: "r8", nombre: "Burrito alambre", precio: 90, max: 5 },
+    { id: "r9", nombre: "Burrito costilla", precio: 100, max: 5 },
+    { id: "r10", nombre: "Burrito arrachera", precio: 100, max: 5 }
   ],
+
 
   postres: [
     { id: "d1", nombre: "Fresas", precio: 50 },

@@ -53,17 +53,17 @@ const productos = {
   ],
 
   pizza: [
-    { id: "p1", nombre: "Pepperoni individual", precio: 30 },
-    { id: "p2", nombre: "Pepperoni calzone", precio: 45 },
-    { id: "p3", nombre: "Pepperoni compartir", precio: 60 },
-    { id: "p4", nombre: "Pepperoni mediana", precio: 150 },
-    { id: "p5", nombre: "Pepperoni grande", precio: 220 },
+    { id: "p1", nombre: "PH Individual", precio: 30 },
+    { id: "p2", nombre: "PH Calzone", precio: 45 },
+    { id: "p3", nombre: "PH Compartir", precio: 60 },
+    { id: "p4", nombre: "PH Mediana", precio: 150 },
+    { id: "p5", nombre: "PH Grande", precio: 220 },
 
-    { id: "p6", nombre: "Pastor individual", precio: 40 },
-    { id: "p7", nombre: "Pastor calzone", precio: 45 },
-    { id: "p8", nombre: "Pastor compartir", precio: 70 },
-    { id: "p9", nombre: "Pastor mediana", precio: 180 },
-    { id: "p10", nombre: "Pastor grande", precio: 250 }
+    { id: "p6", nombre: "PM Individual", precio: 40 },
+    { id: "p7", nombre: "PM Calzone", precio: 45 },
+    { id: "p8", nombre: "PM Compartir", precio: 70 },
+    { id: "p9", nombre: "PM Mediana", precio: 180 },
+    { id: "p10", nombre: "PM Grande", precio: 250 }
   ],
 
   botana: [
